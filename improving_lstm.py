@@ -33,9 +33,9 @@ import motmetrics as mm
 # CONFIG  (edit these)
 # ============================================================================
 
-TRAIN_DIR   = Path(r"C:\Users\mayoo\OneDrive - University of Jeddah\Ai 5th term\Graduation Project\Trying Baseline Models to evaluate\train")
-ANNOT_FILE  = Path(r"C:\Users\mayoo\OneDrive - University of Jeddah\Ai 5th term\Graduation Project\Trying Baseline Models to evaluate\annotations_train.json")
-MODELS_DIR  = Path(r"C:\Users\mayoo\OneDrive - University of Jeddah\hackathons and side projects\Technical assessment\saved_models")
+TRAIN_DIR   = Path("enter your path")
+ANNOT_FILE  = Path("enter your path")
+MODELS_DIR  = Path("enter your path")
 
 OUTPUT_CSV  = Path("tracking_results_lstm_reid.csv")
 OUTPUT_VID  = Path("output_videos")
@@ -709,4 +709,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()

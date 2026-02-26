@@ -593,8 +593,8 @@ def test_model(model: nn.Module, norm_stats: NormStats,
 
 def main():
     # ── Paths ──────────────────────────────────────────────────────────────
-    TRAIN_DIR         = Path(r"C:\Users\mayoo\OneDrive - University of Jeddah\Ai 5th term\Graduation Project\Trying Baseline Models to evaluate\train")
-    TRAIN_ANNOTATIONS = Path(r"C:\Users\mayoo\OneDrive - University of Jeddah\Ai 5th term\Graduation Project\Trying Baseline Models to evaluate\annotations_train.json")
+    TRAIN_DIR         = Path("enter your path")
+    TRAIN_ANNOTATIONS = Path("enter your path")
     MODELS_DIR        = Path("saved_models")
     OUTPUT_CSV        = Path("tracking_results_neural.csv")
 
@@ -713,4 +713,5 @@ def main():
 # ============================================================================
 
 if __name__ == "__main__":
+
     main()

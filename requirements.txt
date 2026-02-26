@@ -1,0 +1,15 @@
+# Core dependencies used across the tracking/evaluation scripts
+
+opencv-python          # cv2 bindings
+numpy
+pandas
+scipy
+motmetrics
+ultralytics            # YOLOv11n wrapper
+torch
+
+# OSNet person re-identification library (install from GitHub)
+# Note: the code expects `torchreid` to be importable, so install via:
+#   pip install git+https://github.com/KaiyangZhou/deep-person-reid.git
+# or include the following line if pip supports VCS requirements:
+# git+https://github.com/KaiyangZhou/deep-person-reid.git#egg=torchreid
